@@ -1,0 +1,19 @@
+to run this application you must have postgresql setup on the machine also running the calendar application.
+To download postgresql follow this link https://www.postgresql.org/download/
+    1)download your OS version of postgresql
+    2)install postgresql onto your machine
+    3)create admin user for postgresql  - make sure to remember your password for this admin as you will need it later
+    4)open up pgadmin and login to your server, create a DB by right clicking "Databases" creating a new one
+    5)in the db.py file update the password with whatever you created along with updaing the db_name to be whatever you creted
+
+I'd recommend downloading pycharm community edition for editing and running the software
+To download pycharm follow this link https://www.jetbrains.com/pycharm/download/#section=windows  (this is a windows link)
+    1)download the community edition
+    2)install pycharm onto your machine
+    3)open the calendar application using pycharm
+    4) open the pycharm settings through "file"->"settings" and open the "Project: calendar"
+    5) within the "python interpreter" install "SQLAlchemy"
+
+
+If you have pycharm download, with the application open through pycharm, downloaded SQLalchemy, then you can click
+the little green arrow (play button looking icon) in the top rightish of the window and the application will run.
