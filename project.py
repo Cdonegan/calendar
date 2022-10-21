@@ -18,5 +18,7 @@ class Project:
         self.date_range = "6/7/2022 - 7/7/2022"
 
     def user_input_of_project(self):
+        """take some user input about the project
+        """
 
 
