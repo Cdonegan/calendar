@@ -14,4 +14,3 @@ class CalendarDay:
 
     def add_values(self, a, b) -> int:
         return a + b
-p

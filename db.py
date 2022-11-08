@@ -28,7 +28,7 @@ class db:
 
         # self.conn = psycopg2.connect(dbname=db_name, user=db_user, password=db_password, host=db_host)
         # self.cur = self.conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-        print(f'crating table TRANX')
+
         self.conn = create_engine(db_string)
 
         # self.cur.execute("CREATE TABLE TRANX (id SERIAL PRIMARY KEY, name VARCHAR, total FLOAT, date DATE, type VARCHAR, inputfiletype VARCHAR);")
