@@ -8,3 +8,8 @@ sql_text = text("CREATE TABLE calendar_day (day DATE PRIMARY KEY, description VA
                 "dependencies VARCHAR );")
 sql_text = text("CREATE TABLE dependency (id SERIAL PRIMARY KEY, description VARCHAR, project VARCHAR, task VARCHAR, "
                 "time_period_affecting_work VARCHAR, date_range VARCHAR );")
+sql_text = text("CREATE TABLE users(id SERIAL PRIMARY KEY, email VARCHAR, password VARCHAR, "
+                "first_name VARCHAR, notes VARCHAR);")
+sql_text = text("CREATE TABLE note(id SERIAL PRIMARY KEY, data VARCHAR, date VARCHAR, "
+                "user_id int);")
+
